@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylon Travel Bucket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Star Rating -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Navigation Bar Begin -->
+        <nav>
+            <div><a href="#" class="brandLogo">Ceylon Travel Bucket</a></div>
+            <div class="navItem">
+                <ul class="menuBar">
+                    <li><a href="#" class="menuItem">Home</a></li>
+                    <li><a href="#" class="menuItem">Destinations</a></li>
+                    <li><a href="#" class="menuItem">About</a></li>
+                    <li><a href="#" class="menuItem">Partner</a></li>
+                    <li><a href="#" class="loginBtn">Login</a></li>
+                    <li><a href="#" class="registerBtn">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Hero Page Begin -->
+        <main>
+            <div class="mainPage">
+                <div class="leftColum">
+                    <div>
+                        <h1 class="mainTitle"><span class="titleColored">Go Explore</span>,<br>
+                            It's a big world <br> out there</h1>
+                        </div>
+                    <div class="mainBottom">
+                        <h2 class="selectTitle">Holiday Finder</h2>
+                        <div class="selectItems">
+                          
+                                <select class="selectItem">
+                                    <option value="">Location</option>
+                                    <option value="">India</option>
+                                    <option value="">Thailand</option>
+                                </select>
+                                <select class="selctItem">
+                                    <option value="">Grade</option>
+                                    <option value="">1st class</option>
+                                    <option value="">2nd class</option>
+                                </select>
+               
+                       
+                                <select class="selctItem">
+                                    <option value="">Activity</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                                <input type="date" class="selectItem">
+                        </div>
+                        <button type="submit" class="exploreBtn">Explore</button>
+                    </div>
+                </div>
+
+                <div class="rightColum">
+                    
+                    <div class="mainImg">
+                        <div id="circle"></div>
+                        <img src="./image/tourist-woman.png" alt="" class="touristImg">
+                    </div>
+                </div>
+            </div>
+        </main>
+            <!-- Popular Destination Section -->
+        <section>
+            <div class="destinations">
+                <h2 class="destinationTitle">Popular <span>Destination</span></h2>
+                <div class="destinationsPlaces">
+
+                    <div class="destinationPlace">
+                        <div class="destinationImg">
+                            <img src="./image/bankok.webp" alt="flotingMarket" class="destinationImg">
+                        </div>
+                        <div class="place">
+                            <h3 class="placeTitle">Floating Market</h3>
+                            <span class="country">Thailand</span>
+                            <div class="placeFooter">
+                                <div class="placePrice">$ 510.00</div>
+                                <button class="startBtn">Start trip</button> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destinationPlace">
+                        <div class="destinationImg">
+                            <img src="./image/singapore.webp" alt="Merlion Park" class="destinationImg">
+                        </div>
+                        
+                        <div class="place">
+                            <h3 class="placeTitle">Merlion Park</h3>
+                            <span class="country">Singapore</span>
+                            <div class="placeFooter">
+                                <div class="placePrice">$ 430.00</div>
+                                <button class="startBtn">Start trip</button> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destinationPlace">
+                        <div class="destinationImg">
+                            <img src="./image/tajmahal.jpg" alt="TajMahal" class="destinationImg">
+                        </div>
+                        <div class="place">
+                            <h3 class="placeTitle">Taj Mahal</h3>
+                            <span class="country">India</span>
+                            <div class="placeFooter">
+                                <div class="placePrice">$ 370.00</div>
+                                <button class="startBtn">Start trip</button> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destinationPlace">
+                        <div class="destinationImg">
+                            <img src="./image/mali.jpg" alt="TajMahal" class="destinationImg">
+                        </div>
+                        <div class="place">
+                            <h3 class="placeTitle">Maamunagau Resort</h3>
+                            <span class="country">Maldives</span>
+                            <div class="placeFooter">
+                                <div class="placePrice">$ 520.00</div>
+                                <button class="startBtn">Start trip</button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+       <!--  We Offer Section Begin -->
+        <section>
+            <div class="offer">
+                    <h2 class="offersTitle">We Offer <span>Best Services</span></h2>
+                <div class="offers">
+                    <div class="offerFacility">
+                        <img src="./image/hotel-svgrepo-com.svg" alt="" class="offerIcon">
+                        <span class="offerTitle">Book Hotels, Flights, Cars, and bundles</span>
+                    </div>
+                    <div class="offerFacility">
+                        <img src="./image/diary-svgrepo-com.svg" alt="" class="offerIcon">
+                        <span class="offerTitle">Expert advice from our Specialists</span>
+                    
+                    </div>
+                    <div class="offerFacility">
+                        <img src="./image/backpack-svgrepo-com.svg" alt="" class="offerIcon">
+                        <span class="offerTitle">Great last-minute deals</span>
+                    </div>
+                </div>
+            </div>
+                        <!-- News Letter -->
+            <div class="newsLetter">
+                <h2 class="newsTitle">Save <span>Time</span>, Save <span>Money</span> !</h2>
+                <div class="emailBox">
+                    <h3 class="emailTitle">Sign up and we'll send the best deals to you</h3>
+                    <div class="emailAdress">
+                    <input type="text" placeholder="Your email adress" class="emailInput">
+                    <button class="subscribeBtn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+                    <!-- Customer Reviews  -->
+<section>
+    <div class="customers">
+        <h2 class="customersTitle">Customers <span>Reviews</span></h2>
+    
+    <div class="customersReviews">
+
+        <div class="gridOne">
+            <div class="customerReview">
+                <img src="./image/customerreview (4).jpg" alt="" class="customerImg">
+                <div class="review">
+                        <h3 class="customer">Glenda Bregazzi</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p>I would highly recommend this trip, meeting and travelling with a great bunch of interesting people. 
+                            A very well organised trip. Intro does all the hard work so that you can just turn up and enjoy the experience.
+                        </p>
+                </div>
+            </div>
+            <div class="customerReview">
+                <img src="./image/customerreview (8).jpg" alt="" class="customerImg">
+                <div class="review">
+                        <h3 class="customer">Glenda Bregazzi</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p>I would highly recommend this trip, meeting and travelling with a great bunch of interesting people. 
+                            A very well organised trip. Intro does all the hard work so that you can just turn up and enjoy the experience.
+                        </p>
+                </div>
+            </div>
+          
+            <div class="customerReview">
+                <img src="./image/customerreview (3).jpg" alt="" class="customerImg">
+                <div class="review">
+                        <h3 class="customer">Glenda Bregazzi</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p>I would highly recommend this trip, meeting and travelling with a great bunch of interesting people. 
+                            A very well organised trip. Intro does all the hard work so that you can just turn up and enjoy the experience.
+                        </p>
+                </div>
+            </div>
+            <div class="customerReview">
+                <img src="./image/customerreview (2).jpg" alt="" class="customerImg">
+                <div class="review">
+                        <h3 class="customer">Glenda Bregazzi</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p>I would highly recommend this trip, meeting and travelling with a great bunch of interesting people. 
+                            A very well organised trip. Intro does all the hard work so that you can just turn up and enjoy the experience.
+                        </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gridTwo">
+
+            
+            <div class="customerReview">
+                <img src="./image/customerreview (7).jpg" alt="" class="customerImg">
+                <div class="review">
+                        <h3 class="customer">Glenda Bregazzi</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p>I would highly recommend this trip, meeting and travelling with a great bunch of interesting people. 
+                            A very well organised trip. Intro does all the hard work so that you can just turn up and enjoy the experience.
+                        </p>
+                </div>
+            </div>
+            <div class="customerReview">
+                <img src="./image/customerreview (6).jpg" alt="" class="customerImg">
+                <div class="review">
+                        <h3 class="customer">Glenda Bregazzi</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p>I would highly recommend this trip, meeting and travelling with a great bunch of interesting people. 
+                            A very well organised trip. Intro does all the hard work so that you can just turn up and enjoy the experience.
+                        </p>
+                </div>
+            </div>
+            <div class="customerReview">
+                <img src="./image/customerreview (1).jpg" alt="" class="customerImg">
+                <div class="review">
+                        <h3 class="customer">Glenda Bregazzi</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p>I would highly recommend this trip, meeting and travelling with a great bunch of interesting people. 
+                            A very well organised trip. Intro does all the hard work so that you can just turn up and enjoy the experience.
+                        </p>
+                </div>
+            </div>
+            <div class="customerReview">
+                <img src="./image/customerreview (5).jpg" alt="" class="customerImg">
+                <div class="review">
+                        <h3 class="customer">Glenda Bregazzi</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p>I would highly recommend this trip, meeting and travelling with a great bunch of interesting people. 
+                            A very well organised trip. Intro does all the hard work so that you can just turn up and enjoy the experience.
+                        </p>
+                </div>
+            </div>
+           
+
+            </div>
+
+        
+
+       
+
+        
+        
+        </div>
+        
+    </div>
+    </div>
+</section>
+
+
+
+
+        <!-- Footer begin -->
+        <footer>
+            <div class="footer">
+                <div class="footerMain">
+                        <h2 class="footerLogo">Ceylon Travel Bucket</h2>
+                        <span  class="footerDesc">
+                            Plan and book your perfect trip with
+                            expert advice.travel tips Destination
+                            information from us.
+                        </span>
+                        <div class="footerCopyright">
+                            <span class="copyright">
+                             2023 Ceylon Bucket Travel Agency
+                             All right reserved.
+                            </span>
+                         </div>
+                </div>
+                <div class="footerNav">
+                    <div class="footerMenu">
+                        <h3 class="footerTitle">Destination</h3>
+                        <ul class="flist">
+                            <li class="flistItem">Africa</li>
+                            <li class="flistItem">Asia</li>
+                            <li class="flistItem">Europe</li>
+                            <li class="flistItem">America</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footerMenu">
+                        <h3 class="footerTitle">Shop</h3>
+                        <ul class="flist">
+                            <li class="flistItem">Destination Guides</li>
+                            <li class="flistItem">Delivery Times</li>
+                            <li class="flistItem">Special Offer</li>
+                            <li class="flistItem">FAQs</li>
+                        </ul>
+                    </div>
+                    <div class="footerMenu">
+                        <h3 class="footerTitle">Interests</h3>
+                        <ul class="flist">
+                            <li class="flistItem">Adventure Travel</li>
+                            <li class="flistItem">Art And Culture</li>
+                            <li class="flistItem">Wildlife And Nature</li>
+                            <li class="flistItem">Family And Holiday</li>
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+
+    </div>
+</body>
+</html>
